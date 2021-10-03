@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutoCollectPercentage: 0.1
+  SaveDelay: 5
   ResourcesConfigs:
   - Name: Click
     UnlockCost: 0
@@ -320,15 +321,14 @@ MonoBehaviour:
   ResourcesSprites:
   - {fileID: 21300000, guid: af308ebc49d011f47b516150f12c8199, type: 3}
   - {fileID: 21300000, guid: 9d969bd2ca1cfdf41b7ca900259a4888, type: 3}
-  TapTextPrefab: {fileID: 4945155255553707121, guid: f915eb7b43e3a1d41abc0fbb65c8361d,
-    type: 3}
-  CoinIcon: {fileID: 793254279}
   ResourcesParent: {fileID: 1234815727}
   ResourcePrefab: {fileID: 6550269594810703766, guid: 2784a39085802104b935729690228bcb,
     type: 3}
+  TapTextPrefab: {fileID: 4945155255553707121, guid: f915eb7b43e3a1d41abc0fbb65c8361d,
+    type: 3}
+  CoinIcon: {fileID: 793254279}
   GoldInfo: {fileID: 199214473}
   AutoCollectInfo: {fileID: 1788556955}
-  TotalGold: 0
 --- !u!4 &358497797
 Transform:
   m_ObjectHideFlags: 0
@@ -557,7 +557,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+  m_BackGroundColor: {r: 0, g: 1, b: 0.9233861, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -681,8 +681,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1466002126}
   m_HandleRect: {fileID: 1466002125}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1007,7 +1007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000001964046}
+  m_AnchoredPosition: {x: 0, y: -0.000046165016}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1234815728
